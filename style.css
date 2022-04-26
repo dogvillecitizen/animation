@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(3, 3, 97);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+ 
+}
+img {
+    width: 1900px;
+    height: 1080px;
+    position: absolute;
+    
+   }
+
+
+p {
+  color: white;
+  animation-name: what;
+  animation-duration: 0.4s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+}
+@keyframes what {
+  0% {
+    font-size: 40px;
+    size: 20px;
+    font-weight: 800;
+  }
+  100% {
+    font-size: 60px;
+    font-weight: 900;
+    color: rgb(209, 69, 69);
+  }
+}
+
+
+.divone {
+    width: 1900px;
+    height: 1080px;
+  margin: auto;
+  position: relative;
+  display: flex;
+}
